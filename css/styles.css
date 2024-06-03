@@ -727,6 +727,10 @@ input {
   background-color: #404bbf;
   border: none;
 }
+button:hover > svg,
+button:focus > svg {
+  fill: #ffffff;
+}
 .form-container-footer {
   margin-left: 80px;
 }
